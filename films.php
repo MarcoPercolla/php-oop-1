@@ -7,14 +7,7 @@ $movies[]= new Movie("Il Signore degli Anelli","2001","epico", "New Zeland", "2h
 $movies[]= new Movie("Il Signore degli Anelli 2","2003","epico", "New Zeland", "2h52min");
 $movies[]= new Movie("Il Signore degli Anelli 3","2004","epico", "New Zeland", "3h2min");
 
-function getAll($array) {
 
-
-    foreach ($array as $film) {
-        echo $film->getMovieData();
-     }
-
-}
 
 
 
